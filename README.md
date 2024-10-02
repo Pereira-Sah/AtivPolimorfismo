@@ -1,5 +1,5 @@
 **1. Sobrescrita de métodos em uma hierarquia de veículo**
-__Enunciado:__
+
 Implemente uma classe base chamada Veiculo que possua um método mover(). Crie duas subclasses: Carro e Bicicleta, que sobrescrevam o método mover() com comportamentos específicos.
 
 A classe Carro deve imprimir "O carro está dirigindo" e a classe Bicicleta deve imprimir "A bicicleta está pedalando".
@@ -8,7 +8,7 @@ A classe Carro deve imprimir "O carro está dirigindo" e a classe Bicicleta deve
 
 
 **2. Sobrecarga de métodos**
-__Enunciado:__
+
 Crie uma classe Calculadora que contenha três versões do método somar(). A primeira versão deve receber dois parâmetros inteiros, a segunda deve receber três parâmetros inteiros, 
 e a terceira deve receber dois parâmetros do tipo double.
 
@@ -20,7 +20,7 @@ Discuta como a sobrecarga de métodos permite a criação de várias versões do
 
 
 **3. Sobrecarga de construtores**
-__Enunciado:__
+
 Crie uma classe chamada Produto com três construtores sobrecarregados:
 
 O primeiro deve receber um nome do produto (String).
@@ -35,7 +35,7 @@ Instancie objetos da classe Produto utilizando cada um dos construtores e imprim
 
 
 **4. Sobrescrita de métodos em uma classe de pagamento**
-__Enunciado:__
+
 Crie uma classe base chamada Pagamento com um método processarPagamento(), que apenas imprime "Processando pagamento genérico". Em seguida, crie duas subclasses: PagamentoCartao e PagamentoBoleto.
 
 A classe PagamentoCartao deve sobrescrever o método processarPagamento() para imprimir "Processando pagamento via cartão de crédito".
@@ -48,7 +48,7 @@ Instancie objetos de ambas as classes e demonstre o polimorfismo chamando o mét
 
 
 **5. Sobrecarga de métodos em uma classe de conversão**
-__Enunciado:__
+
 Implemente uma classe chamada Conversor que contenha três versões sobrecarregadas do método converter():
 
 A primeira versão deve converter uma temperatura de Celsius para Fahrenheit.
